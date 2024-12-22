@@ -1,0 +1,42 @@
+all_video_id: /path/to/svd/metadata-release/all-video-id
+labeled_id: /path/to/svd/metadata-release/labeled-data-id
+unlabeled_id: /path/to/svd/metadata-release/unlabeled-data-id
+query_id: /path/to/svd/metadata-release/query-id
+groundtruth: /path/to/svd/metadata-release/groundtruth
+train_groundtruth: /path/to/svd/metadata-release/train_groundtruth
+test_groundtruth: /path/to/svd/metadata-release/test_groundtruth
+
+video_root_paths:
+  - /path/to/svd/query
+  - /path/to/svd/labeled-0
+  - /path/to/svd/labeled-1
+  - /path/to/svd/unlabeled-0
+  - /path/to/svd/unlabeled-1
+  - /path/to/svd/unlabeled-2
+  - /path/to/svd/unlabeled-3
+  - /path/to/svd/unlabeled-4
+  - /path/to/svd/unlabeled-5
+  - /path/to/svd/unlabeled-6
+  - /path/to/svd/unlabeled-7
+  - /path/to/svd/unlabeled-8
+  - /path/to/svd/unlabeled-9
+  - /path/to/svd/unlabeled-10
+  - /path/to/svd/unlabeled-11
+  - /path/to/svd/unlabeled-12
+  - /path/to/svd/unlabeled-13
+  - /path/to/svd/unlabeled-14
+  - /path/to/svd/unlabeled-15
+  - /path/to/svd/unlabeled-16
+  - /path/to/svd/unlabeled-17
+  - /path/to/svd/unlabeled-18
+  - /path/to/svd/unlabeled-19
+  - /path/to/svd/unlabeled-20
+  - /path/to/svd/unlabeled-21
+  - /path/to/svd/unlabeled-22
+  - /path/to/svd/unlabeled-23
+  - /path/to/svd/unlabeled-24
+  - /path/to/svd/unlabeled-25
+  - /path/to/svd/unlabeled-26
+frame_root_path: /path/to/svd/frames
+frame_count_file: /path/to/svd/num_frames
+feature_root_path: /path/to/svd/features
