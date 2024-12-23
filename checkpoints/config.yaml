@@ -1,0 +1,24 @@
+arch: resnet18
+batch_size: 64
+ckpt_dir: F:/whiten_mtd-main/checkpoints
+dist_url: tcp://localhost:2023
+embed_dim: 512
+epochs: 200
+gld_root_path: F:/whiten_mtd-main/datasets/cifar-10
+imsize: 512
+lr: 0.001
+num_workers: 8
+p: 3
+path_to_pretrained_weights: /path/to/pretrained_weights
+rank: 0
+resume: null
+snapshot_step: 10
+st: 0.05
+start_epoch: 0
+strategy: maxmin
+teachers:
+- resnet101_delg
+- resnet101_dolg
+tt: 0.05
+weight_decay: 1.0e-06
+world_size: 8
